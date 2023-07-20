@@ -8,7 +8,7 @@ Expected Output: ["strawberry", "banana", "orange", "apple", "kiwi"]
 
 # Initializing SparkSession and SparkContext objects
 from pyspark.sql.session import SparkSession
-spark = SparkSession.builder.master("local").appName("Counting words").getOrCreate()
+spark = SparkSession.builder.master("local").appName("Sorting String Length").getOrCreate()
 sc = spark.sparkContext
 
 # Creating a Python list with the list of string.
