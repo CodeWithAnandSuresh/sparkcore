@@ -8,7 +8,7 @@ Expected Output: Word count: Hello: 2 world: 2 Spark: 1 is: 2 awesome: 1 again: 
 
 # Initializing SparkSession and SparkContext objects
 from pyspark.sql.session import SparkSession
-spark = SparkSession.builder.master("local").appName("Counting words").getOrCreate()
+spark = SparkSession.builder.master("local").appName("Word Count Program").getOrCreate()
 sc = spark.sparkContext
 
 # Creating a Python list with the list of string.
