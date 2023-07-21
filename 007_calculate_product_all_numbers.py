@@ -8,7 +8,7 @@ Expected Output: Product: 3715891200
 
 # Initializing SparkSession and SparkContext objects
 from pyspark.sql.session import SparkSession
-spark = SparkSession.builder.master("local").appName("Counting words").getOrCreate()
+spark = SparkSession.builder.master("local").appName("Product of all numbers").getOrCreate()
 sc = spark.sparkContext
 
 # Creating a python list with given values
