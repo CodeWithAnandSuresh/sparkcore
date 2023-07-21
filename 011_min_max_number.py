@@ -10,7 +10,7 @@ Minimum: 2
 
 # Initializing SparkSession and SparkContext objects
 from pyspark.sql.session import SparkSession
-spark = SparkSession.builder.master("local").appName("Counting words").getOrCreate()
+spark = SparkSession.builder.master("local").appName("Max and Min numbers").getOrCreate()
 sc = spark.sparkContext
 
 # Creating a Python list with the list of values.
