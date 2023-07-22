@@ -12,7 +12,7 @@ Expected Output:
 # Initializing SparkSession and SparkContext objects
 
 from pyspark.sql.session import SparkSession
-spark = SparkSession.builder.master("local").appName("Counting words").getOrCreate()
+spark = SparkSession.builder.master("local").appName("Filter Even Numbers").getOrCreate()
 sc = spark.sparkContext
 
 # creating a python list with list of values
